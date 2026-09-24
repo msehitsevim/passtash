@@ -1,0 +1,96 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <!-- Background Layers (Fresh, Airy Porcelain & White) -->
+    <Color x:Key="BgDeepColor">#F8FAFC</Color>
+    <Color x:Key="BgPrimaryColor">#FFFFFF</Color>
+    <Color x:Key="BgSecondaryColor">#F1F5F9</Color>
+    <Color x:Key="BgTertiaryColor">#E2E8F0</Color>
+    <Color x:Key="BgCardColor">#FFFFFF</Color>
+    <Color x:Key="BgHoverColor">#EEF2F6</Color>
+    <Color x:Key="BgSelectedColor">#FEF3C7</Color>
+
+    <SolidColorBrush x:Key="BgDeep" Color="#F8FAFC" />
+    <SolidColorBrush x:Key="BgPrimary" Color="#FFFFFF" />
+    <SolidColorBrush x:Key="BgSecondary" Color="#F1F5F9" />
+    <SolidColorBrush x:Key="BgTertiary" Color="#E2E8F0" />
+    <SolidColorBrush x:Key="BgCard" Color="#FFFFFF" />
+    <SolidColorBrush x:Key="BgHover" Color="#EEF2F6" />
+    <SolidColorBrush x:Key="BgSelected" Color="#FEF3C7" />
+
+    <!-- Accent Colors (Warm Radiant Gold / Stash Amber) -->
+    <SolidColorBrush x:Key="AccentPrimary" Color="#D97706" />
+    <SolidColorBrush x:Key="AccentSecondary" Color="#F59E0B" />
+    <SolidColorBrush x:Key="AccentDim" Color="#B45309" />
+    <SolidColorBrush x:Key="AccentGlow" Color="#FDE68A" />
+
+    <!-- Vibrant Gradient (Golden Amber to Royal Violet) -->
+    <LinearGradientBrush x:Key="AccentGradient" StartPoint="0,0" EndPoint="1,1">
+        <GradientStop Color="#F59E0B" Offset="0" />
+        <GradientStop Color="#7C3AED" Offset="1" />
+    </LinearGradientBrush>
+    <LinearGradientBrush x:Key="AccentGradientH" StartPoint="0,0.5" EndPoint="1,0.5">
+        <GradientStop Color="#F59E0B" Offset="0" />
+        <GradientStop Color="#7C3AED" Offset="1" />
+    </LinearGradientBrush>
+
+    <!-- Visual Category Badge Gradients -->
+    <LinearGradientBrush x:Key="BadgeAllBrush" StartPoint="0,0" EndPoint="1,1">
+        <GradientStop Color="#F97316" Offset="0" />
+        <GradientStop Color="#F59E0B" Offset="1" />
+    </LinearGradientBrush>
+    <LinearGradientBrush x:Key="BadgeLoginBrush" StartPoint="0,0" EndPoint="1,1">
+        <GradientStop Color="#3B82F6" Offset="0" />
+        <GradientStop Color="#06B6D4" Offset="1" />
+    </LinearGradientBrush>
+    <LinearGradientBrush x:Key="BadgeNoteBrush" StartPoint="0,0" EndPoint="1,1">
+        <GradientStop Color="#8B5CF6" Offset="0" />
+        <GradientStop Color="#A855F7" Offset="1" />
+    </LinearGradientBrush>
+    <LinearGradientBrush x:Key="BadgeCardBrush" StartPoint="0,0" EndPoint="1,1">
+        <GradientStop Color="#10B981" Offset="0" />
+        <GradientStop Color="#059669" Offset="1" />
+    </LinearGradientBrush>
+    <LinearGradientBrush x:Key="BadgeServerBrush" StartPoint="0,0" EndPoint="1,1">
+        <GradientStop Color="#EC4899" Offset="0" />
+        <GradientStop Color="#F43F5E" Offset="1" />
+    </LinearGradientBrush>
+    <LinearGradientBrush x:Key="BadgeStarBrush" StartPoint="0,0" EndPoint="1,1">
+        <GradientStop Color="#F59E0B" Offset="0" />
+        <GradientStop Color="#D97706" Offset="1" />
+    </LinearGradientBrush>
+    <LinearGradientBrush x:Key="BadgeGeneratorBrush" StartPoint="0,0" EndPoint="1,1">
+        <GradientStop Color="#0D9488" Offset="0" />
+        <GradientStop Color="#14B8A6" Offset="1" />
+    </LinearGradientBrush>
+
+    <!-- Text Colors (High Contrast, Razor-Sharp) -->
+    <SolidColorBrush x:Key="TextPrimary" Color="#0F172A" />
+    <SolidColorBrush x:Key="TextSecondary" Color="#475569" />
+    <SolidColorBrush x:Key="TextMuted" Color="#94A3B8" />
+    <SolidColorBrush x:Key="TextAccent" Color="#D97706" />
+
+    <!-- Status Colors -->
+    <SolidColorBrush x:Key="SuccessBrush" Color="#16A34A" />
+    <SolidColorBrush x:Key="WarningBrush" Color="#D97706" />
+    <SolidColorBrush x:Key="ErrorBrush" Color="#DC2626" />
+    <SolidColorBrush x:Key="InfoBrush" Color="#2563EB" />
+
+    <!-- Border Colors -->
+    <SolidColorBrush x:Key="BorderSubtle" Color="#E2E8F0" />
+    <SolidColorBrush x:Key="BorderDefault" Color="#CBD5E1" />
+    <SolidColorBrush x:Key="BorderAccent" Color="#F59E0B" />
+
+    <!-- Strength Colors -->
+    <SolidColorBrush x:Key="StrengthVeryWeak" Color="#DC2626" />
+    <SolidColorBrush x:Key="StrengthWeak" Color="#EA580C" />
+    <SolidColorBrush x:Key="StrengthFair" Color="#CA8A04" />
+    <SolidColorBrush x:Key="StrengthStrong" Color="#16A34A" />
+    <SolidColorBrush x:Key="StrengthVeryStrong" Color="#D97706" />
+
+    <!-- ScrollBar -->
+    <SolidColorBrush x:Key="ScrollBarThumb" Color="#CBD5E1" />
+    <SolidColorBrush x:Key="ScrollBarThumbHover" Color="#94A3B8" />
+    <SolidColorBrush x:Key="ScrollBarThumbDragging" Color="#F59E0B" />
+
+</ResourceDictionary>
